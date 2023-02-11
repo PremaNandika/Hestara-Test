@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 module.exports = {
   content: [
     './components/**/*.{js,vue,ts}',
@@ -8,7 +8,12 @@ module.exports = {
     './nuxt.config.{js,ts}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customGray: '#777777',
+        purple: '#b84ed9',
+      },
+    },
   },
   plugins: [],
 }
