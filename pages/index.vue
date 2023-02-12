@@ -1,5 +1,8 @@
 <template>
-  <Header/>
+  <section class="bg-[#eff1f3]">
+    <Header/>
+    <NavBar/>
+  </section>
   <!-- <Tutorial /> -->
   <!-- <p class="text-6xl font-bold">Hello World</p> -->
 </template>

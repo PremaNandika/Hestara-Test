@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'hestera-test',
+    title: 'hestara-test',
     htmlAttrs: {
       lang: 'en',
     },
