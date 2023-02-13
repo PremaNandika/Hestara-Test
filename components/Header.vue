@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-transparent border border-b-2">
+  <header class="bg-transparent border border-b">
     <div class="max-w-[1240px] w-full mx-auto justify-between items-center flex px-3 h-11">
       <div class="text-[11px] md:text-xs py-3 flex text-customGray">
         <span class="pr-2.5 hover:text-purple hover:underline">info@hestera.app</span>

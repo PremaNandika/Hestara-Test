@@ -1,5 +1,5 @@
 <template>
-  <button class="text-white text-sm font-semibold px-4 py-2.5 rounded-full gradient-button transition">
+  <button :class="paddingClass + ' text-white text-sm font-semibold rounded-full gradient-button transition'">
     <span>{{text}}</span>
   </button>
 </template>
@@ -10,7 +10,8 @@ import Vue from 'vue'
 export default Vue.extend({
   name: "CustomBtnComponent",
   props: {
-    text: String
+    text: String,
+    paddingClass: String
   },
   data: () => ({
 
